@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value=""></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+    
+      <class name="com.test.module1.Assignment2"/>
+      
+    	<parameter name="email" value="Please provide the email here @ email.com"></parameter>
+      <parameter name="password" value="Please provide the password here"></parameter>
+      <parameter name="comment" value="I dont know"></parameter> <!-- this value is correct -->
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
